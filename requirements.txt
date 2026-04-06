@@ -2,7 +2,6 @@ yfinance>=0.2.40
 finance-datareader>=0.9.0
 pandas>=2.0.0
 numpy>=1.26.0
-pandas-ta>=0.3.14b
 alpaca-py>=0.20.0
 plotly>=5.0.0
 schedule>=1.2.0
