@@ -1,0 +1,53 @@
+﻿strategy,market,period,total_return,cagr,mdd,sharpe,win_rate,trades,params,run_at,period_label
+Momentum,KR,2020-01-02 ~ 2024-12-30,0.00%,0.00%,0.00%,-9.292505457285368e+16,0.00%,0,"{'lookback': 60, 'top_k': 3, 'rebalance': 'W'}",2026-03-30 22:43:15,
+RSI Rebound,KR,2020-01-02 ~ 2024-12-30,7.26%,1.41%,-32.32%,0.06,52.00%,53,"{'rsi_period': 14, 'oversold': 30.0, 'overbought': 70.0}",2026-03-30 22:43:15,
+Golden Cross,KR,2020-01-02 ~ 2024-12-30,50.53%,8.53%,-31.15%,0.49,35.29%,104,"{'short_win': 20, 'long_win': 60}",2026-03-30 22:43:15,
+Factor Combo,KR,2020-01-02 ~ 2024-12-30,0.00%,0.00%,0.00%,-9.292505457285368e+16,0.00%,0,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6}",2026-03-30 22:43:15,
+Momentum,KR,2020-01-02 ~ 2024-12-30,140.17%,19.18%,-48.58%,0.72,0.00%,137,"{'lookback': 60, 'top_k': 3, 'rebalance': 'W'}",2026-03-30 22:44:24,
+RSI Rebound,KR,2020-01-02 ~ 2024-12-30,7.26%,1.41%,-32.32%,0.06,52.00%,53,"{'rsi_period': 14, 'oversold': 30.0, 'overbought': 70.0}",2026-03-30 22:44:24,
+Golden Cross,KR,2020-01-02 ~ 2024-12-30,50.53%,8.53%,-31.15%,0.49,35.29%,104,"{'short_win': 20, 'long_win': 60}",2026-03-30 22:44:24,
+Factor Combo,KR,2020-01-02 ~ 2024-12-30,157.23%,20.83%,-37.15%,0.79,0.00%,145,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6}",2026-03-30 22:44:24,
+Momentum,KR,2020-01-02 ~ 2024-12-30,6036.74%,128.05%,-24.84%,2.07,0.00%,2750,"{'lookback': 60, 'top_k': 20, 'rebalance': 'W'}",2026-03-30 23:03:17,
+RSI Rebound,KR,2020-01-02 ~ 2024-12-30,30.87%,5.53%,-27.64%,0.33,64.31%,25199,"{'rsi_period': 14, 'oversold': 30.0, 'overbought': 70.0}",2026-03-30 23:03:17,
+Golden Cross,KR,2020-01-02 ~ 2024-12-30,15.91%,3.00%,-22.00%,0.17,28.49%,53704,"{'short_win': 20, 'long_win': 60}",2026-03-30 23:03:17,
+Factor Combo,KR,2020-01-02 ~ 2024-12-30,470.43%,41.72%,-35.77%,1.13,0.00%,3270,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 20, 'momentum_weight': 0.6}",2026-03-30 23:03:17,
+Momentum,KR,2020-01-02 ~ 2022-12-29,87.66%,23.43%,-48.58%,0.83,0.00%,83,"{'lookback': 60, 'top_k': 3, 'rebalance': 'W'}",2026-03-30 23:11:21,train
+RSI Rebound,KR,2020-01-02 ~ 2022-12-29,1.52%,0.50%,-32.32%,0.03,78.57%,32,"{'rsi_period': 14, 'oversold': 30.0, 'overbought': 70.0}",2026-03-30 23:11:21,train
+Golden Cross,KR,2020-01-02 ~ 2022-12-29,57.27%,16.35%,-28.06%,0.93,35.71%,58,"{'short_win': 20, 'long_win': 60}",2026-03-30 23:11:21,train
+Factor Combo,KR,2020-01-02 ~ 2022-12-29,133.27%,32.75%,-37.15%,1.15,0.00%,71,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6}",2026-03-30 23:11:21,train
+Momentum,KR,2023-01-02 ~ 2024-12-30,22.05%,10.52%,-24.12%,0.46,0.00%,41,"{'lookback': 60, 'top_k': 3, 'rebalance': 'W'}",2026-03-30 23:11:21,val
+RSI Rebound,KR,2023-01-02 ~ 2024-12-30,0.08%,0.04%,-19.87%,-0.04,54.55%,25,"{'rsi_period': 14, 'oversold': 30.0, 'overbought': 70.0}",2026-03-30 23:11:21,val
+Golden Cross,KR,2023-01-02 ~ 2024-12-30,-7.89%,-4.04%,-18.70%,-0.41,26.32%,40,"{'short_win': 20, 'long_win': 60}",2026-03-30 23:11:21,val
+Factor Combo,KR,2023-01-02 ~ 2024-12-30,4.31%,2.14%,-28.34%,0.13,0.00%,59,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6}",2026-03-30 23:11:21,val
+Momentum-20d,KR,2020-01-02 ~ 2022-12-29,83.34%,22.48%,-30.08%,0.74,0.00%,150,"{'lookback': 20, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,train
+Momentum-60d,KR,2020-01-02 ~ 2022-12-29,78.50%,21.39%,-30.08%,0.75,0.00%,136,"{'lookback': 60, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,train
+Momentum-120d,KR,2020-01-02 ~ 2022-12-29,67.16%,18.75%,-30.08%,0.7,0.00%,130,"{'lookback': 120, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,train
+Factor Combo,KR,2020-01-02 ~ 2022-12-29,133.27%,32.75%,-37.15%,1.15,0.00%,71,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:18:00,train
+Momentum-20d,KR,2023-01-02 ~ 2024-12-30,44.01%,20.08%,-34.02%,0.7,0.00%,102,"{'lookback': 20, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,val
+Momentum-60d,KR,2023-01-02 ~ 2024-12-30,50.03%,22.57%,-34.02%,0.8,0.00%,94,"{'lookback': 60, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,val
+Momentum-120d,KR,2023-01-02 ~ 2024-12-30,3.71%,1.84%,-34.02%,0.13,0.00%,78,"{'lookback': 120, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:18:00,val
+Factor Combo,KR,2023-01-02 ~ 2024-12-30,4.31%,2.14%,-28.34%,0.13,0.00%,59,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:18:00,val
+Momentum-20d,KR,2020-01-02 ~ 2022-12-29,29845974.10%,6680.00%,-19.69%,6.6,0.00%,5222,"{'lookback': 20, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,train
+Momentum-60d,KR,2020-01-02 ~ 2022-12-29,2407171.08%,2820.95%,-12.31%,6.17,0.00%,4984,"{'lookback': 60, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,train
+Momentum-120d,KR,2020-01-02 ~ 2022-12-29,396619.17%,1498.14%,-11.51%,5.9,0.00%,4452,"{'lookback': 120, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,train
+Factor Combo,KR,2020-01-02 ~ 2022-12-29,212.61%,46.41%,-35.77%,1.24,0.00%,1910,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 20, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:20:27,train
+Momentum-20d,KR,2023-01-02 ~ 2024-12-30,1062505.48%,10373.68%,-16.37%,6.47,0.00%,3480,"{'lookback': 20, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,val
+Momentum-60d,KR,2023-01-02 ~ 2024-12-30,126439.59%,3501.14%,-14.70%,5.77,0.00%,3182,"{'lookback': 60, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,val
+Momentum-120d,KR,2023-01-02 ~ 2024-12-30,13817.71%,1089.77%,-11.86%,5.42,0.00%,2702,"{'lookback': 120, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:20:27,val
+Factor Combo,KR,2023-01-02 ~ 2024-12-30,35.94%,16.65%,-30.84%,0.57,0.00%,1222,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 20, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:20:27,val
+Momentum-20d,KR,2020-01-02 ~ 2022-12-29,-8.56%,-2.95%,-31.43%,-0.09,0.00%,160,"{'lookback': 20, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,train
+Momentum-60d,KR,2020-01-02 ~ 2022-12-29,-10.48%,-3.63%,-31.43%,-0.15,0.00%,152,"{'lookback': 60, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,train
+Momentum-120d,KR,2020-01-02 ~ 2022-12-29,-30.27%,-11.36%,-31.43%,-0.65,0.00%,134,"{'lookback': 120, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,train
+Factor Combo,KR,2020-01-02 ~ 2022-12-29,86.27%,23.13%,-46.42%,0.86,0.00%,85,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:27:33,train
+Momentum-20d,KR,2023-01-02 ~ 2024-12-30,-29.91%,-16.33%,-40.85%,-0.77,0.00%,114,"{'lookback': 20, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,val
+Momentum-60d,KR,2023-01-02 ~ 2024-12-30,-29.80%,-16.27%,-40.31%,-0.8,0.00%,110,"{'lookback': 60, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,val
+Momentum-120d,KR,2023-01-02 ~ 2024-12-30,-26.15%,-14.11%,-39.84%,-0.72,0.00%,102,"{'lookback': 120, 'top_k': 3, 'vol_filter': True, 'market_filter': True}",2026-03-30 23:27:33,val
+Factor Combo,KR,2023-01-02 ~ 2024-12-30,7.22%,3.56%,-29.07%,0.19,0.00%,61,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 3, 'momentum_weight': 0.6, 'market_filter': True}",2026-03-30 23:27:33,val
+Momentum-20d,KR,2020-01-02 ~ 2022-12-29,-6.56%,-2.24%,-52.09%,-0.01,0.00%,2474,"{'lookback': 20, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,train
+Momentum-60d,KR,2020-01-02 ~ 2022-12-29,-9.78%,-3.38%,-30.48%,-0.10,0.00%,2332,"{'lookback': 60, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,train
+Momentum-120d,KR,2020-01-02 ~ 2022-12-29,74.20%,20.40%,-31.76%,0.84,0.00%,2126,"{'lookback': 120, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,train
+Factor Combo,KR,2020-01-02 ~ 2022-12-29,-11.45%,-3.99%,-40.53%,-0.15,0.00%,956,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 20, 'momentum_weight': 0.6, 'market_filter': True}",2026-04-05 11:54:59,train
+Momentum-20d,KR,2023-01-02 ~ 2024-12-30,-53.53%,-31.92%,-66.12%,-0.97,0.00%,2736,"{'lookback': 20, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,val
+Momentum-60d,KR,2023-01-02 ~ 2024-12-30,-52.51%,-31.17%,-62.77%,-1.10,0.00%,2446,"{'lookback': 60, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,val
+Momentum-120d,KR,2023-01-02 ~ 2024-12-30,-41.30%,-23.45%,-54.31%,-0.91,0.00%,1978,"{'lookback': 120, 'top_k': 20, 'vol_filter': True, 'market_filter': True}",2026-04-05 11:54:59,val
+Factor Combo,KR,2023-01-02 ~ 2024-12-30,-47.02%,-27.29%,-51.65%,-1.07,0.00%,970,"{'momentum_window': 60, 'vol_window': 20, 'top_k': 20, 'momentum_weight': 0.6, 'market_filter': True}",2026-04-05 11:54:59,val

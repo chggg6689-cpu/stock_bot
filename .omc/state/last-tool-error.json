@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\PC\\\\kospi-kosdaq-quant-bot\\\" && python -c \\\"\\nfrom docx import Document\\nfor fname in ['README.docx', 'CLAUDE_PROMPT_KR.docx']:\\n    print(f'\\\\n===== {fname} =====')\\n    d...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 2, in <module>\r\nModuleNotFoundError: No module named 'docx'",
+  "timestamp": "2026-04-05T13:51:10.298Z",
+  "retry_count": 1
+}
